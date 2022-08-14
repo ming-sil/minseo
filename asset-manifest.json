@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/minseo/static/js/main.0e9e12aa.js",
+    "main.js": "/minseo/static/js/main.afd7158e.js",
     "static/media/bg2.jpg": "/minseo/static/media/bg2.65ed179e7d2e55235060.jpg",
     "static/media/bg1.jpg": "/minseo/static/media/bg1.4606d2175dd27008251c.jpg",
     "static/media/KERMIT.png": "/minseo/static/media/KERMIT.d5e4fc066f2d38cab2b5.png",
     "index.html": "/minseo/index.html",
-    "main.0e9e12aa.js.map": "/minseo/static/js/main.0e9e12aa.js.map"
+    "main.afd7158e.js.map": "/minseo/static/js/main.afd7158e.js.map"
   },
   "entrypoints": [
-    "static/js/main.0e9e12aa.js"
+    "static/js/main.afd7158e.js"
   ]
 }
