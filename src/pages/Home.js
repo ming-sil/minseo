@@ -18,7 +18,7 @@ const Wrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(${bgImg2}) no-repeat top / cover;
+  background: url(${bgImg2}) no-repeat center / cover;
 `;
 
 const Container = styled.div`
@@ -108,7 +108,7 @@ const Social = styled.div`
     margin-bottom: 30px;
   }
   a {
-    width: 30%;
+    width: 100%;
     height: 45px;
     border-radius: 32px;
     display: flex;
@@ -158,14 +158,17 @@ const CVPortfolioWrap = styled.div`
   }
   p {
     height: 15%;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color: ${mainStyle.textcolor};
     opacity: 0.7;
+    @media screen and (max-width: 500px) {
+      font-size: 12px;
+    }
   }
   div {
     width: fit-content;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: #ffffff;
     background-color: ${mainStyle.maincolor};
@@ -174,6 +177,9 @@ const CVPortfolioWrap = styled.div`
     padding: 5px;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 500px) {
+      font-size: 12px;
+    }
   }
 `;
 
@@ -214,13 +220,13 @@ export const Home = () => {
           <Text> 저를 소개합니다.</Text>
           <CVPortfolioWrap>
             <a href="#" target="_blank">
-              <h3>이력서</h3>
-              <p>~~~~~~~~</p>
+              <h3>이력서 및 자기소개서</h3>
+              <p>이력서와 자기소개서 입니다.</p>
               <div>바로가기 ▸</div>
             </a>
             <Link to="/projects">
               <h3>포트폴리오</h3>
-              <p>작업물 링크 모음~~~~~~~~</p>
+              <p>2022년 4월부터의 작업물의 링크가 모여있는 페이지 입니다.</p>
               <div>바로가기 ▸</div>
             </Link>
           </CVPortfolioWrap>
